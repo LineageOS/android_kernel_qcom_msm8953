@@ -63,6 +63,8 @@ struct mdss_livedisplay_ctx {
 	bool aco_enabled;
 	bool ce_enabled;
 	bool hbm_enabled;
+	bool reading_mode_enabled;
+	bool video_mode_enabled;
 
 	unsigned int link_state;
 
