@@ -11,6 +11,10 @@ ifeq ($(CONFIG_ARCH_SDM670), y)
 include $(srctree)/techpack/audio/config/sdm710auto_static.conf
 export $(shell sed 's/=.*//' $(srctree)/techpack/audio/config/sdm670auto_static.conf)
 endif
+ifeq ($(CONFIG_ARCH_SDM439), y)
+include $(srctree)/techpack/audio/config/sdm450auto.conf
+export $(shell sed 's/=.*//' $(srctree)/techpack/audio/config/sdm450auto.conf)
+endif
 ifeq ($(CONFIG_ARCH_SDXPOORWILLS), y)
 include $(srctree)/techpack/audio/config/sdxpoorwillsauto.conf
 export $(shell sed 's/=.*//' $(srctree)/techpack/audio/config/sdxpoorwillsauto.conf)
@@ -41,6 +45,10 @@ endif
 ifeq ($(CONFIG_ARCH_SDM670), y)
 LINUXINCLUDE    += \
                 -include $(srctree)/techpack/audio/config/sdm710autoconf.h
+endif
+ifeq ($(CONFIG_ARCH_SDM439), y)
+LINUXINCLUDE    += \
+                -include $(srctree)/techpack/audio/config/sdm450autoconf.h
 endif
 ifeq ($(CONFIG_ARCH_SDXPOORWILLS), y)
 LINUXINCLUDE    += \
