@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "24205662_8ad65c14",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-04-02T19:12:25Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_kernel_nvidia_kernel/+/388186 proper subtree of this pls * https://github.com/namjaejeon/linux-exfat-oot.git",
+      "revId": "760cdad1fe0656007f6eea7bd6f92f0e1d8680fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
