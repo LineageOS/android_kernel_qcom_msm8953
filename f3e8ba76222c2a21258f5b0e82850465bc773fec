@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9039cf26_3126e96c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-07-09T05:48:49Z",
+      "side": 1,
+      "message": "This topic backports all VDSO32 commits from kernel/qcom/sdm845.\n\nFull tree found at: https://github.com/lifehacker-101/android_kernel_qcom_msm8953/tree/qcom-msm8953-vdso32\n\nThis has been verified on gtowifi.",
+      "revId": "f3e8ba76222c2a21258f5b0e82850465bc773fec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
