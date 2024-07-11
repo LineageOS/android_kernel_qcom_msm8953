@@ -16,6 +16,23 @@
       "message": "This topic aims to accomplish two things:\n- Port all techpack-related changes from kernel/qcom/sdm845\n- Add support for SDM439\n\nFull tree found at: https://github.com/lifehacker-101/android_kernel_qcom_msm8953/tree/qcom-msm8953-techpack-fixes\n\nThis has been verified on gtowifi.",
       "revId": "614712fd6c9ab66d2dc648f3170ade5632096c15",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb403c7c_5bb85ed9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28232
+      },
+      "writtenOn": "2024-07-11T17:58:59Z",
+      "side": 1,
+      "message": "Sorry for the late response. The entire chain looks fine to me. Adding my +1 to the HEAD CL instead of all.",
+      "revId": "614712fd6c9ab66d2dc648f3170ade5632096c15",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
