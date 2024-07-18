@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "316008b6_9f3d8c0c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-07-18T17:17:20Z",
+      "side": 1,
+      "message": "This topic backports all WireGuard commits from kernel/qcom/sdm845.\n\nFull tree found at: https://github.com/lifehacker-101/android_kernel_qcom_msm8953/tree/qcom-msm8953-wireguard\n\nThis has been verified on gtowifi.",
+      "revId": "761d30c7c7c2926a6092ac42c7ddf90c071885fe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
