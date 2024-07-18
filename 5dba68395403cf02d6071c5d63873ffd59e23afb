@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f21f3a56_4ffc7953",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-07-18T19:40:13Z",
+      "side": 1,
+      "message": "This series brings this repository in line with nearly all out-of-tree patches from kernel/qcom/sdm845. Among other things, it allows our kernel to compile with LLVM \\o/\n\nNOTE: I have omitted the f2fs backport merge commit as well as all f2fs commits on top of it, as I could not figure out cleanly reconciling all the conflicts. Would be appreciated if someone could take a look at it.\n\nNOTE: This HEAD commit is required for MSM8937/SDM439 devices, which do not use DWC3 and thus can\u0027t use the normal USB data disable option.\n\nFull tree found at: https://github.com/lifehacker-101/android_kernel_qcom_msm8953\n\nThis has been tested on gtowifi.",
+      "revId": "5dba68395403cf02d6071c5d63873ffd59e23afb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
