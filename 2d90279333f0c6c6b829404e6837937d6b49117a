@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a6ecb6f5_19a7449d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-07-20T14:38:23Z",
+      "side": 1,
+      "message": "Full tree found at: https://github.com/lifehacker-101/android_kernel_qcom_msm8953/tree/LA.UM.10.6.2.c26-01500-89xx.0",
+      "revId": "2d90279333f0c6c6b829404e6837937d6b49117a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
