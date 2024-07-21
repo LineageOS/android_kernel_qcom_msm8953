@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "be856f8b_d4ccbeed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-07-21T14:30:38Z",
+      "side": 1,
+      "message": "Updated my fork with new HEAD: https://github.com/lifehacker-101/android_kernel_qcom_msm8953",
+      "revId": "80c4fb4524ffb75aa8ac2259cfe9e09d8e3625be",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
