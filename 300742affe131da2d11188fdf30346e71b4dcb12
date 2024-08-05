@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b1d1f45_322204d0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-08-05T19:41:00Z",
+      "side": 1,
+      "message": "rebased on latest changes; dropped the techpack merge as the only actual diff were newlines",
+      "revId": "300742affe131da2d11188fdf30346e71b4dcb12",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
