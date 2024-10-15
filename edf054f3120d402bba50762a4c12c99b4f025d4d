@@ -16,6 +16,23 @@
       "message": "Full tree found at: https://github.com/lifehacker-101/android_kernel_qcom_msm8953/tree/LA.UM.8.6.2.c29-07000-89xx.0/",
       "revId": "edf054f3120d402bba50762a4c12c99b4f025d4d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c474488b_33d9557e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2024-10-15T12:48:37Z",
+      "side": 1,
+      "message": "Chain looks ok to me",
+      "revId": "edf054f3120d402bba50762a4c12c99b4f025d4d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
