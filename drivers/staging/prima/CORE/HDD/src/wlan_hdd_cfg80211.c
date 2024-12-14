@@ -17493,14 +17493,14 @@ int wlan_hdd_cfg80211_set_privacy(hdd_adapter_t *pAdapter,
 
     if (req->crypto.wpa_versions)
     {
-        if (NL80211_WPA_VERSION_1 == req->crypto.wpa_versions)
-        {
-            pWextState->wpaVersion = IW_AUTH_WPA_VERSION_WPA;
-        }
-        else if (NL80211_WPA_VERSION_2 == req->crypto.wpa_versions)
-        {
-            pWextState->wpaVersion = IW_AUTH_WPA_VERSION_WPA2;
-        }
+	if (req->crypto.wpa_versions & (NL80211_WPA_VERSION_2 | NL80211_WPA_VERSION_3))
+	{
+		pWextState->wpaVersion = IW_AUTH_WPA_VERSION_WPA2;
+	}
+	else if (req->crypto.wpa_versions & NL80211_WPA_VERSION_1)
+	{
+		pWextState->wpaVersion = IW_AUTH_WPA_VERSION_WPA;
+	}
     }
 
     hddLog(VOS_TRACE_LEVEL_INFO, "%s: set wpa version to %d", __func__,
