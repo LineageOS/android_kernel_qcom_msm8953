@@ -16,6 +16,41 @@
       "message": "I think this should also be applied to 8917/8937/429/439",
       "revId": "371655c41cfee84a1b2fe349c17d1dd35c7c0c33",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd5f1849_e873e9af",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-02-13T18:14:42Z",
+      "side": 1,
+      "message": "sdm429.dtsi sdm439.dtsi both inherits msm8937",
+      "revId": "371655c41cfee84a1b2fe349c17d1dd35c7c0c33",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3260016b_a94d6c54",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-02-13T18:14:42Z",
+      "side": 1,
+      "message": "throw them in.",
+      "parentUuid": "e921f316_4951aa52",
+      "revId": "371655c41cfee84a1b2fe349c17d1dd35c7c0c33",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
